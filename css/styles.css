@@ -205,10 +205,6 @@ img {
     padding: 120px 0;
 }
 
-.second-portfolio {
-    margin-bottom: 48px;
-}
-
 .our-team-container-name-position {
     padding: 32px 0;
     text-align: center;
@@ -241,6 +237,7 @@ img {
 
 .list-our-portfolio {
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 
 .container-text-portfolio {
