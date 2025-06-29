@@ -112,12 +112,11 @@ img {
 
 .main-page-banner {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .main-page-container {
-    display: block;
-    text-align: center;
-    padding: 188px 0;
+    text-align: center;   
 }
 
 .title {
@@ -141,9 +140,13 @@ img {
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
-    display: inline-block;
+    display: block;
+    min-width: 169px;
+    height: 56px;
     border-radius: 4px;
     padding: 16px 32px;
+    border: none;
+    margin: 0 auto;
 }
 
 .button:hover, 
@@ -176,7 +179,6 @@ img {
 
 .benefits-container {
     display: block;
-    padding: 120px 0;
     margin: 0 auto;
     min-width: 1128px;
 }
@@ -197,8 +199,9 @@ img {
     width: calc((100% - 48px) / 3);
 }
 
-.our-team-container,
-.our-portfolio-container {
+.main-page-portfolio,
+.main-page-benefits,
+.main-page-our-team {
     padding: 120px 0;
 }
 
@@ -229,15 +232,21 @@ img {
 .team-list {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .main-page-our-team {
     background-color: #f4f4fd;
 }
+
+.list-our-portfolio {
+    flex-wrap: wrap;
+}
+
 .container-text-portfolio {
-    border-bottom: solid #e7e9fc;
-    border-left: solid #e7e9fc;
-    border-right: solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
     width: 360px;
     height: 120px;
     padding: 32px 16px;
